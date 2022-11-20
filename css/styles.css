@@ -568,6 +568,9 @@ top: 0;
 width: 100%;
 height: 100%;
 background-color: var(--color-backdrop) ;
+transition-property: opasity, visibility;
+transition-duration: var(--time);
+transition-timing-function: var(--timing-function);
 }
 .mod-window {
 position: absolute;
@@ -579,6 +582,7 @@ min-height: 580px;
 border-radius: 4px;
 background-color: var(--color-white);
 }
+
 .mod-btn {
 position: absolute;
 right: 8px;
